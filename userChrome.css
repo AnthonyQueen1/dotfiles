@@ -1,0 +1,123 @@
+scrollbar,
+scrollbar scrollbarbutton,
+scrollbar slider,
+scrollbar thumb {
+    -moz-appearance: none;
+}
+
+scrollbar scrollbarbutton {
+    visibility: collapse;
+}
+
+scrollbar,
+scrollbar slider{
+    min-width: 12px;
+}
+
+scrollbar thumb {
+    background-color: #ccc3;
+    border-radius: 100px;
+    box-shadow: 0 0 0 1px #fff1 inset;
+}
+
+scrollbar[orient="vertical"] thumb {
+    min-width: 0;
+    min-height: 50px;
+}
+
+scrollbar[orient="horizontal"] thumb {
+    min-width: 50px;
+    min-height: 0;
+}
+
+
+
+
+#TabsToolbar {
+    visibility: collapse;
+}
+
+#titlebar {
+    margin-bottom: -34px !important;
+}
+
+#titlebar-buttonbox {
+    height: 32px !important;
+}
+
+#nav-bar {
+    margin-right: 180px;
+}
+
+#main-window[sizemode="maximized"] #nav-bar {
+    margin-right: 138px;
+}
+
+
+#sidebar-box {
+    background-color: #333 !important;
+}
+
+
+#sidebar-header {
+    border-color: #454545 !important;
+}
+
+.tree-stack { 
+    /*probably need fix*/
+    /*color: #ccc !important;*/
+}
+
+#sidebar-splitter {
+    border-color: #393939 !important;
+}
+
+#sidebar-switcher-target {
+    color: #ccc !important;
+}
+
+.panel-arrow[side="top"],
+.panel-arrow[side="bottom"] {
+    filter: invert(80%);
+}
+
+
+.panel-arrowcontent {
+    --arrowpanel-background: #333;
+    --arrowpanel-color: #ccc;
+}
+
+photonpanelmultiview .PanelUI-subView .toolbaritem-combined-buttons > .subviewbutton:not(.subviewbutton-iconic) {
+    background-color: #333;
+    border: 1px solid #454545;
+}
+
+toolbarbutton[checked="true"]:not([disabled="true"]) {
+    color: #fff !important;    
+}
+
+#customizationui-widget-panel toolbarbutton[checked="true"] .toolbarbutton-icon {
+    filter: invert(100%);
+}
+
+photonpanelmultiview .PanelUI-subView .toolbaritem-combined-buttons > .subviewbutton:not(.subviewbutton-iconic) {
+    background-color: #fff2 !important;
+    border-color: #fff4 !important;
+}
+
+
+treechildren::-moz-tree-row(hover) {
+    color: #fff !important;
+}
+
+.sidebar-placesTreechildren{
+    color: #ccc;
+    background-image: none;
+    background-color: transparent;
+}
+
+.sidebar-placesTreechildren::-moz-tree-row(hover) {
+    color: #000 !important;
+    background-image: none !important;
+    background-color: #fff2 !important;
+}
